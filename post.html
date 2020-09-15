@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="bg-img">
+
+	<head>
+		<meta charset="utf-8">
+		<title>233</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="assets/css/site.min.css">
+		<link rel="stylesheet" href="assets/css/perfect-scrollbar.css">
+		<style type="text/css">
+			.box {
+				height: 100vh;
+				padding: 0;
+			}
+
+			@media (min-width: 1140px) {
+				.box {
+					height: 100vh;
+					padding: 50px 0;
+				}
+			}
+
+			.bg-img {
+				background-image: url("assets/images/bg.jpg");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+				background-attachment: fixed;
+			}
+
+			@media (min-width: 991.98px) {
+				.page-sidenav>.sidenav {
+					max-width: 13.5rem;
+				}
+			}
+
+			.min-h-100 {
+				min-height: 100%;
+			}
+		</style>
+	</head>
+
+	<body class="overflow-hidden">
+		<!-- <div class="bg"></div> -->
+		<div class="page-container">
+			<div class="box position-relative">
+
+				<div class="layout-row m-0 h-100 bg-body shadow-lg">
+
+					<div id="aside" class="page-sidenav h-100">
+						<div class="sidenav h-100 bg-light">
+							<div class="pt-2 mb-2">
+								<div class="nav-fold px-2">
+									<a class="d-flex p-2" data-toggle="dropdown">
+										<span class="avatar w-40 rounded hide">J</span>
+										<img src="assets/images/a6.jpg" alt="..." class="w-40 r">
+									</a>
+									<div class="dropdown-menu w mt-1 animate fadeIn">
+										<a class="dropdown-item" href="page.setting.html">
+											<span>Account Settings</span>
+										</a>
+										<a class="dropdown-item" href="signin.1.html">Sign out</a>
+									</div>
+									<div class="hidden-folded flex p-2">
+										<div class="d-flex flex-column">
+											<span class="text-truncate">Jacqueline Reid</span>
+											<span class="d-block text-muted text-truncate">Super Admin</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="flex position-relative nav-scrollbar">
+								<div class="nav-stacked nav-active-primary auto-nav" data-nav="">
+									<ul class="nav">
+
+										<li class="">
+											<a href="index2.html">
+												<span class="nav-icon"><i data-feather="home"></i></span>
+												<span class="nav-text">Home</span>
+											</a>
+										</li>
+										<li class="active">
+											<a href="post.html">
+												<span class="nav-icon"><i data-feather="home"></i></span>
+												<span class="nav-text">Add Log</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="nav-icon"><i data-feather="shopping-bag"></i></span>
+												<span class="nav-text">Shop</span>
+												<span class="nav-badge"><b class="badge badge-pill bg-danger theme">6</b></span>
+												<span class="nav-caret"></span>
+											</a>
+											<ul class="nav-sub">
+												<li><a href="#"><span class="nav-text">Products</span></a></li>
+												<li><a href="#"><span class="nav-text">Customers</span></a></li>
+												<li><a href="#"><span class="nav-text">Orders</span></a></li>
+												<li><a href="#"><span class="nav-text">Shipment</span></a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="#">
+												<span class="nav-icon"><i data-feather="mail"></i></span>
+												<span class="nav-text">Mail</span>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<span class="nav-icon"><i data-feather="grid"></i></span>
+												<span class="nav-text">Projects</span>
+											</a>
+										</li>
+
+									</ul>
+								</div>
+							</div><!-- sidenav bottom -->
+							<div class="py-2 mt-2 b-t no-shrink setting d-flex justify-content-center align-items-center">
+								<label class="ui-switch">
+									<input type="checkbox" name="foldedAside"><i></i>
+								</label>
+							</div>
+						</div>
+					</div>
+
+					<div id="main" class="layout-column flex overflow-hidden">
+						<div id="header" class="page-header sticky bg-body" data-class="bg-body">
+							<div class="navbar navbar-expand-lg">
+								<!-- brand --><a href="index.html" class="navbar-brand d-lg-none">
+									<svg width="32" height="32" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+										<g class="loading-spin" style="transform-origin: 256px 256px">
+											<path d="M200.043 106.067c-40.631 15.171-73.434 46.382-90.717 85.933H256l-55.957-85.933zM412.797 288A160.723 160.723 0 0 0 416 256c0-36.624-12.314-70.367-33.016-97.334L311 288h101.797zM359.973 134.395C332.007 110.461 295.694 96 256 96c-7.966 0-15.794.591-23.448 1.715L310.852 224l49.121-89.605zM99.204 224A160.65 160.65 0 0 0 96 256c0 36.639 12.324 70.394 33.041 97.366L201 224H99.204zM311.959 405.932c40.631-15.171 73.433-46.382 90.715-85.932H256l55.959 85.932zM152.046 377.621C180.009 401.545 216.314 416 256 416c7.969 0 15.799-.592 23.456-1.716L201.164 288l-49.118 89.621z">
+											</path>
+										</g>
+									</svg><!-- <img src="../assets/img/logo.png" alt="..."> -->
+									<span class="hidden-folded d-inline l-s-n-1x d-lg-none">Basik</span>
+								</a><!-- / brand -->
+								<!-- Navbar collapse -->
+								<div class="navbar-collapse order-2 order-lg-1 collapse" id="navbarToggler">
+									<form class="input-group m-2 my-lg-0">
+										<div class="input-group-prepend">
+											<button type="button" class="btn no-shadow no-bg px-0 text-inherit">
+												<i data-feather="search"></i>
+											</button>
+										</div>
+										<span class="twitter-typeahead">
+											<input type="text" class="form-control no-border no-shadow no-bg typeahead tt-input" placeholder="Search components..."
+											 autocomplete="off" spellcheck="false" dir="auto">
+										</span>
+									</form>
+								</div>
+								<ul class="nav navbar-menu order-1 order-lg-2">
+									<!-- <li class="nav-item d-none d-sm-block"></li> -->
+									<li class="nav-item dropdown">
+										<a href="#" data-toggle="dropdown" class="nav-link d-flex align-items-center px-2 text-color" aria-expanded="false">
+											<span class="avatar w-24" style="margin: -2px">
+												<img src="assets/images/a6.jpg" alt="...">
+											</span>
+										</a>
+										<div class="dropdown-menu dropdown-menu-right w mt-3 animate fadeIn">
+											<a class="dropdown-item" href="page.profile.html">
+												<span>Jacqueline
+													Reid
+												</span>
+											</a>
+											<a class="dropdown-item" href="page.price.html"><span class="badge bg-success text-uppercase">Upgrade</span>
+												<span>to Pro</span>
+											</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="page.profile.html">
+												<span>Profile</span>
+											</a>
+											<a class="dropdown-item d-flex" href="page.invoice.html">
+												<span class="flex">Invoice</span>
+												<span><b class="badge badge-pill gd-warning">5</b></span>
+											</a>
+											<a class="dropdown-item" href="page.faq.html">Need
+												help?
+											</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="page.setting.html">
+												<span>Account
+													Settings
+												</span>
+											</a>
+											<a class="dropdown-item" href="signin.1.html">Sign out</a>
+										</div>
+									</li>
+									<!-- Navarbar toggle btn -->
+									<li class="nav-item d-lg-none">
+										<a href="#" class="nav-link px-2 active" data-toggle="collapse" data-toggle-class="" data-target="#navbarToggler"
+										 aria-expanded="true">
+											<i data-feather="search"></i>
+										</a>
+									</li>
+									<li class="nav-item d-lg-none">
+										<a class="nav-link px-1" data-toggle="modal" data-target="#aside">
+											<i data-feather="menu"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="container-scrollbar h-100 position-relative overflow-hidden flex">
+							<div id="content" class="min-h-100">
+
+								<div class="padding sr">
+
+									<!--  -->
+									<div class="row row-sm">
+										<div class="col-12">
+											<h2 class="text-md text-highlight mb-3">撰写新文章</h2>
+											<div class="md-form-group">
+												<input class="md-input">
+												<label>Title</label>
+											</div>
+											<div class="md-form-group">
+												<textarea name="content" id="article-content" placeholder=""></textarea>
+											</div>
+										</div>
+									</div>
+									<!--  -->
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- <script src="assets/js/site.min.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="assets/js/perfect-scrollbar.min.js"></script>
+		
+		<script>
+			feather.replace({
+				width: 16,
+				height: 16
+			})
+			// Initialize the plugin
+			const container = document.querySelector('.container-scrollbar');
+			const perfectScrollbar = new PerfectScrollbar(container);
+
+			const navScrollbar = document.querySelector('.nav-scrollbar');
+			const navPerfectScrollbar = new PerfectScrollbar(navScrollbar);
+		</script>
+		
+		<script src="assets/tinymce/tinymce.min.js"></script>
+		<script>
+		    tinymce.init({
+		        selector:'#article-content',
+		        language: 'zh_CN',
+		        //theme: 'silver', //  silver  mobile
+		        skin: 'oxide', //  oxide  oxide-dark
+		        height: 600,
+		        menubar: false,
+		        branding: false,
+		        plugins: [
+		            "advlist autolink lists link image charmap print preview anchor",
+		            "searchreplace visualblocks code fullscreen",
+		            "insertdatetime media table contextmenu paste imagetools wordcount",
+		            'colorpicker emoticons hr help pagebreak tabfocus textcolor textpattern codesample',
+		            //'imagetools tinydrive',
+		        ],
+		        //工具栏
+		        toolbar1: "bold italic underline strikethrough forecolor link unlink blockquote pagebreak copy paste charmap removeformat table  image media pageembed codesample help",
+		        toolbar2: "undo redo styleselect alignleft aligncenter alignright alignjustify bullist numlist outdent indent code fullscreen preview",
+		        style_formats: [
+		            {title: "Header 1",format: "h1"},
+		            {title: "Header 2",format: "h2"},
+		            {title: "Header 3",format: "h3"},
+		            {title: "Header 4",format: "h4"},
+		            {title: "Header 5",format: "h5"},
+		            {title: "Header 6",format: "h6"},
+		        ],
+		        file_picker_types: 'file image media',
+		        file_picker_callback: function(callback, value, meta) {
+		            // Provide file and text for the link dialog
+		            if (meta.filetype == 'file') {
+		                callback('mypage.html', {text: 'My text'});
+		            }
+		            // Provide image and alt text for the image dialog
+		            if (meta.filetype == 'image') {
+		                callback('myimage.jpg', {alt: 'My alt text'});
+		            }
+		            // Provide alternative source and posted for the media dialog
+		            if (meta.filetype == 'media') {
+		                callback('movie.mp4', {source2: 'alt.ogg', poster: 'image.jpg'});
+		            }
+		        },
+		        images_upload_url: '/admin/Base/uploadImage',
+		
+		    });
+		</script>
+	</body>
+
+</html>
